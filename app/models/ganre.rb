@@ -1,3 +1,3 @@
 class Ganre < ActiveRecord::Base
-  has_many :films
+  has_and_belongs_to_many :films
 end
